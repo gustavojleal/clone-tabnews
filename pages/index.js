@@ -1,11 +1,11 @@
 import Image from "next/image";
-import underconstruction from "../public/underconstruction.jpg";
+import underconstruction from "../public/underconstruction.png";
 
 function Home() {
-  return 
+  return (
     <div>
       <Image src={underconstruction} alt="Under Construction" />
-    </div>;
+    </div>);
 }
 
 export default Home;
